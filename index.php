@@ -8,7 +8,11 @@ $app->config('debug', true);
 
 $app->get('/', function() {
     
-	echo "OK";
+	$sql = new Finder\DB\Sql();
+
+	$results = $sql->select("SELECT * FROM tb_company");
+
+	echo json_encode($results);
 
 });
 

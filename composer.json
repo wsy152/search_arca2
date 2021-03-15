@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Search\\": "vendor\\Bfinder\\php-classes\\src"
+            "Finder\\": "vendor\\finder\\php-classes\\src"
         }
     }
 }

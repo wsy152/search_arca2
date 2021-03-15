@@ -7,16 +7,16 @@ namespace Composer\Autoload;
 class ComposerStaticInit09bc202f795a8cea22c3c3c11ad311e0
 {
     public static $prefixLengthsPsr4 = array (
-        'S' => 
+        'F' => 
         array (
-            'Search\\' => 7,
+            'Finder\\' => 7,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Search\\' => 
+        'Finder\\' => 
         array (
-            0 => __DIR__ . '/..' . '/Bfinder/php-classes/src',
+            0 => __DIR__ . '/..' . '/finder/php-classes/src',
         ),
     );
 
